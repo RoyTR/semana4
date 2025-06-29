@@ -7,5 +7,4 @@ def main():
     sueldo_neto = sueldo_bruto - descuento
 
     print("El importe a recibir es:", round(sueldo_neto, 2))
-
 main()
