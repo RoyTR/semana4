@@ -1,7 +1,7 @@
 def calcular_sueldo_final(sueldo_inicial, tipo_trabajador, anios_trabajo):
     #gerente= 14% anual, 18% cada 4 años
     #empleado= 8% anual, 12% cada 4 años
-    #sueldo_final = sueldo_inicial
+    sueldo_final = sueldo_inicial
     
     for anio in range(1, anios_trabajo):
         #Determinar el porentaje segun tipo y si es multiplo de 4
