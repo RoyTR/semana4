@@ -20,8 +20,6 @@ def clave_es_valida(clave):
         # 7 - 5 + 1 = 3  => el carcter es 4
         # 7 - 6 + 1 = 2  => el carcter es 7
         # 7 - 7 + 1 = 1  => el carcter es 8
-        #
-        1 2 3 4 4 7 8
         
         if posicion_derecha == 3:
             digito_centena = int(caracter)
